@@ -362,20 +362,20 @@ header .container .navbar .collapse ul li .active {
     margin: 30px 0;
 }
 
-.arrivals .container .box .card {
-    height: 480px;
+.arrivals .container .box .img {
+    height: 400px;
     overflow: hidden;
     border: none;
     border-radius: 10px;
 }
 
-.arrivals .container .box .card img {
+.arrivals .container .box .img img {
     width: auto;
     transform: scale(1);
     transition: all 0.6s ease-in-out;
 }
 
-.arrivals .container .box .card img:hover {
+.arrivals .container .box .img img:hover {
     transform: scale(1.3);
 }
 
@@ -441,6 +441,19 @@ header .container .navbar .collapse ul li .active {
             /* transform: translateY(-80px); */
         }
     }
+
+    .arrivals {
+        height: 1870px;
+    }
+
+    .arrivals .container .heading h2 {
+        text-align: center;
+    }
+
+    .arrivals .container .box .img {
+        display: grid;
+        place-items: center;
+    }
 }
 
 
@@ -475,6 +488,10 @@ header .container .navbar .collapse ul li .active {
 
 
 @media (max-width: 575px) {
+    .hero {
+        height: 425px;
+    }
+    
     .hero .container .part1 {
         text-align: center;
     }
