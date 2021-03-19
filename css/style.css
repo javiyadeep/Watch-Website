@@ -564,7 +564,9 @@ header .container .navbar .collapse .nav-icon ul li i {
 
 
 
-
+.form {
+    font-family: var(--robot);
+}
 
 
 
